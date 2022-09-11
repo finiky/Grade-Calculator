@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.label,
+.mainFormButton {
+  font-size: 1.5rem;
+  width: 100%;
+}
+.mainFormNumber,
+.mainFormSelect {
+  width: 100%;
+  font-size: 1.2rem;
+}
+.mainFormSelect,
+.mainFormNumber,
+.mainFormButton,
+.message {
+  font-family: "Righteous", sans-serif;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.main {
+  display: grid;
+  grid-template-rows: 0.2fr 1fr;
+  row-gap: 2rem;
+}
+.message {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.mainForm {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2.5rem;
+}
+.seperation {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0.75fr 1fr;
+}
+
+@media only screen and (min-width: 51.5rem) {
+  .message {
+    font-size: 3rem;
+  }
+  .label,
+  .mainFormButton {
+    font-size: 2.5rem;
+  }
+  .mainFormNumber,
+  .mainFormSelect {
+    font-size: 2.2rem;
+  }
+}
